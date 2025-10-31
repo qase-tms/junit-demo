@@ -39,7 +39,7 @@
     <dependency>
       <groupId>io.qase</groupId>
       <artifactId>qase-junit5-reporter</artifactId>
-      <version>4.1.9</version>
+      <version>4.1.23</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -83,4 +83,3 @@
     </plugins>
   </build>
 </project>
-
