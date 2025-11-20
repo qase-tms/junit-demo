@@ -7,7 +7,7 @@ public class QaseIdTest {
     @Test
     // Replace the Id `1` with a valid Id from your Qase project and uncomment the
     // line below.
-    // @QaseId(1)
+    @QaseIds({ 25, 26, 27 })
     public void testWithQaseId_success() {
         System.out.println("Test with QaseId");
     }
