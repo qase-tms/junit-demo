@@ -1,0 +1,32 @@
+{
+  "mode": "testops",
+  "fallback": "report",
+  "debug": true,
+  "environment": "local",
+  "captureLogs": false,
+  "report": {
+    "driver": "local",
+    "connection": {
+      "local": {
+        "path": "./build/qase-report",
+        "format": "json"
+      }
+    }
+  },
+  "testops": {
+    "api": {
+      "token": "daa20e2e5dd9246712faa2ba3767a8f4f20d5060fea696e6a94734f845be93f3",
+      "host": "qase.io"
+    },
+    "run": {
+      "title": "Regress run",
+      "description": "Regress run description",
+      "complete": true
+    },
+    "defect": false,
+    "project": "DW",
+    "batch": {
+      "size": 100
+    }
+  }
+}
